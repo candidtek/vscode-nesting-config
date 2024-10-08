@@ -26,6 +26,15 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
+    ".gitignore": ".gitattributes, .gitmodules, .easignore",
+    "package.json": ".npmrc, .nvmrc, .ncurc.json, pnpm-workspace.yaml, turbo.json",
+    ".prettierrc.*": ".prettierignore",
+    "eslint.config.*": "eslint.rules.json, eslint.abbrs.json",
+    "jest.config.*": ".jestignore",
+    "tsconfig.json": "tsconfig.*.json, tsconfig-*.json, tsup.config.*",
+    "README.md": "todo.txt, CODEOWNERS, typedoc.json",
+    ".env": ".env.*",
+    "app.config.*": "babel.config.*, metro.config.*, eas.json, eas-setup.cmd, env.js, tailwind.config.js"
   },
 ```
 
