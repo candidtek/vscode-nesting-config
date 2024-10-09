@@ -33,8 +33,8 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
     "jest.config.*": ".jestignore",
     "tsconfig.json": "tsconfig.*.json, tsconfig-*.json, tsup.config.*",
     "README.md": "todo.txt, CODEOWNERS, typedoc.json",
-    ".env": ".env.*",
-    "app.config.*": "babel.config.*, metro.config.*, eas.json, eas-setup.cmd, env.js, tailwind.config.js"
+	".env": ".env.*, env.js",
+	"app.config.*": "babel.config.*, metro.config.*, eas.json, eas-setup.cmd, tailwind.config.js"
   },
 ```
 
