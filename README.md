@@ -30,7 +30,7 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
     "package.json": ".npmrc, .nvmrc, .ncurc.json, pnpm-workspace.yaml, turbo.json",
     ".prettierrc.*": ".prettierignore",
     "eslint.config.*": "eslint.rules.json, eslint.abbrs.json",
-    "jest.config.*": ".jestignore",
+    "jest.config.*": ".jestignore, jest-setup.ts",
     "tsconfig.json": "tsconfig.*.json, tsconfig-*.json, tsup.config.*",
     "README.md": "todo.txt, CODEOWNERS, typedoc.json",
 	".env": ".env.*, env.js",
