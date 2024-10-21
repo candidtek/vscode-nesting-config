@@ -34,7 +34,7 @@ Open your VS Code, bring up your `settings.json`, copy-n-paste the snippet below
     "tsconfig.json": "tsconfig.*.json, tsconfig-*.json, tsup.config.*",
     "README.md": "todo.txt, CODEOWNERS, typedoc.json",
 	".env": ".env.*, env.js, env.cjs, env.mjs",
-	"app.config.*": "babel.config.*, metro.config.*, eas.json, eas-setup.cmd"
+	"app.config.*": "babel.config.*, metro.config.*, drizzle.config.ts, eas.json, eas-setup.cmd"
   },
 ```
 
